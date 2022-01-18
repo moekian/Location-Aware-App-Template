@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="AMG-Jd-BQA">
             <objects>
-                <viewController id="bev-jo-glU" customClass="ViewController" customModule="Location_Aware_App_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bev-jo-glU" customClass="ViewController" customModule="Location_Aware_App_Template" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yhq-4z-pYd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,14 +136,6 @@
                             <constraint firstItem="uV9-A5-w0C" firstAttribute="trailing" secondItem="igJ-vL-68Y" secondAttribute="trailing" id="ayn-4W-cZK"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="addressLbl" destination="83q-A8-s0k" id="h3x-a1-qlC"/>
-                        <outlet property="altitudeLbl" destination="JMO-O2-wOe" id="alF-Qr-2bQ"/>
-                        <outlet property="courseLbl" destination="RPv-PD-q9I" id="Wex-Xh-UpN"/>
-                        <outlet property="latitudeLbl" destination="mdD-xx-yC3" id="0Iz-uz-1BW"/>
-                        <outlet property="longitudeLbl" destination="Yus-BX-aBi" id="5DN-Tz-rEe"/>
-                        <outlet property="speedLbl" destination="HNH-WZ-Vry" id="I4e-NT-27M"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jsy-Nb-NkB" sceneMemberID="firstResponder"/>
             </objects>
